@@ -19,13 +19,19 @@ $ cd nytimes-lead-set-assignment
 $ npm install
 $ npm run e2e-setup
 ```
-Now you have installed all dependancies using `npm` and executed `node` script that installs selenium server, chromedriver, and geckodriver. For this assignment test this project only run and tested using chromedriver at the moment.
+Now you have installed all dependancies using `npm` and executed `node` script that installs selenium server, chromedriver, and make sure the location of these are correct, please check under `nightwatch.json` and under `cli_args` paramete.
+NOTE: For this assignment test this project only run and tested using chromedriver at the moment.
 
-#### Notes on Node Version
+## Framework and directory
+This framework build with page-object concept in mind and all the page object can be found and reusable in the `pages` directory. As well the directory `test/e2e` design for only testing steps and feature, all the fail and/or error during test will be recorder and stored at `reports` directory.
+- All necessary node package stored at `package.json`
+- All nightwatch.js configuration stored at `nightwatch.json` and load using `nightwatch.conf.js`
+
+### Notes on Node Version
 
 Currently designed to run on v7.10.1
 
-### How to run the test
+## How to run the test
 
 To run all the test suites just type `npm test` in the shell command-line/terminal
 
