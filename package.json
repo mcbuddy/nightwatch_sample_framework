@@ -1,0 +1,33 @@
+{
+  "name": "nytimes-lead-set-assignment",
+  "version": "1.0.0",
+  "description": "Test Assignment for NYT Lead SDET code challenge ",
+  "main": "index.js",
+  "scripts": {
+    "e2e-setup": "selenium-standalone install",
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mcbuddy/nytimes-lead-set-assignment.git"
+  },
+  "author": "Budi Sugianto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcbuddy/nytimes-lead-set-assignment/issues"
+  },
+  "homepage": "https://github.com/mcbuddy/nytimes-lead-set-assignment#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "nightwatch": "^0.9.19",
+    "selenium-standalone": "^6.12.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1"
+  }
+}
