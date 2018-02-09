@@ -1,4 +1,4 @@
-# Nightwatch Sample Testing framework
+# Nightwatch Sample Testing framework 
 
 ## Requirements
 First thing you need to do is to install [Node.js](https://nodejs.org/en/) if you don’t yet have it in your local machine command-line terminal. You can find the installation instructions on the Node.js project page. Once you have node installed, you can take advantage of it’s package manager called `npm`.
